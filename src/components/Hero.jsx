@@ -17,7 +17,7 @@ export const Hero = () => {
 						Billions were spent mapping who's who. But business runs
 						on who's next.
 					</p>
-					<p className="text-[#818181] text-base sm:text-xl md:text-2xl mb-10 max-w-4xl">
+					<p className="text-[#f84b76] text-base sm:text-xl md:text-2xl mb-10 max-w-4xl">
 						Knowledge is a native AI company mapping 370 million professionals across trillions of behavioral signals, trained on millions of hours of human decision-making data to predict real-world actions before they happen.
 					</p>
 					<div>
