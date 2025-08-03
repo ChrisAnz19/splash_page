@@ -30,13 +30,13 @@ const Header = () => {
 							}
 						)}
 					>
-						<a onClick={() => setOpen(false)} href="#video">
+						<a onClick={() => setOpen(false)} href="#video" className="hover:text-white transition-colors duration-300 cursor-pointer">
 							Video
 						</a>
-						<a onClick={() => setOpen(false)} href="#mission">
+						<a onClick={() => setOpen(false)} href="#mission" className="hover:text-white transition-colors duration-300 cursor-pointer">
 							Our Mission
 						</a>
-						<a onClick={() => setOpen(false)} href="#waitlist">
+						<a onClick={() => setOpen(false)} href="#waitlist" className="hover:text-white transition-colors duration-300 cursor-pointer">
 							Waitlist
 						</a>
 						<a

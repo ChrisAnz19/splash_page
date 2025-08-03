@@ -3,7 +3,7 @@ import Button from "./common/button";
 
 const Newstaller = () => {
   const inputClass =
-    "border-t border-[#D9D9D9] leading-[72px] text-xl font-semibold py-auto placeholder:text-white placeholder:font-semibold outline-none focus:border-t-[#D9D9D9] focus:outline-none w-full bg-transparent";
+    "border-t border-[#9CA3AF] border-t-[1px] leading-[72px] text-xl font-semibold py-auto placeholder:text-white placeholder:font-semibold outline-none focus:border-t-[#9CA3AF] focus:outline-none w-full bg-transparent";
   return (
     <section
       className="rounded-b-[90px] mt-[90px] md:mt-[280px] pb-20 md:pb-[122px] pt-[45px] sm:pt-[110px] relative z-[10]"
