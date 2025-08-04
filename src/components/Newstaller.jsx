@@ -204,8 +204,7 @@ const Newstaller = () => {
           <TextAnimation text="Know who they are. Predict what they'll do next." />
         </h3>
         <p className="text-center text-base font-medium mb-6">
-          We're partnering with a small number of venture funds who align with
-          our vision. If you'd like to be considered, share your info below.
+          We're partnering with a small number of venture funds and beta testers who align with our vision. If you'd like to be considered, share your info below.
         </p>
         <div className="flex flex-col gap-5 mx-auto max-w-[818px]">
           <div className="relative">
@@ -265,7 +264,7 @@ const Newstaller = () => {
               disabled={isSubmitting}
             />
             <Button 
-              text={isSubmitting ? "SUBMITTING..." : "REQUEST A INTRO"} 
+              text={isSubmitting ? "SUBMITTING..." : "LET'S TALK"} 
               className="max-sm:flex-grow"
               onClick={() => {
                 console.log('Intro button clicked!');
