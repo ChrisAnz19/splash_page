@@ -10,8 +10,8 @@ export const Hero = () => {
 				<FadeInUp>
 					<h1 className="text-white text-4xl sm:text-5xl md:text-[70px] md:leading-[72px] font-bold mb-6 ml-2 tracking-tight">
 						<div className="mb-2">
-							Know why new <CyclingText 
-								words={["hires", "customers", "prospects", "anyone"]} 
+							Know why <CyclingText 
+								words={["prospects", "investors", "candidates", "anyone"]} 
 								className="text-[#f84b76]" 
 								cycleSpeed={2500}
 							/> will respond.
