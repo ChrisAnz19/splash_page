@@ -66,7 +66,7 @@ const Header = () => {
 							</svg>
 						</button>
 					</div>
-					<div className="fixed top-8 right-8 z-50">
+					<div className="fixed top-8 right-12 z-50">
 						<a
 							onClick={() => setOpen(false)}
 							href="#waitlist"
