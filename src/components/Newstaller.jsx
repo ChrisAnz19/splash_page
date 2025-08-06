@@ -22,7 +22,7 @@ const Newstaller = () => {
         console.log('Supabase URL:', process.env.REACT_APP_SUPABASE_URL);
         console.log('Supabase Key exists:', !!process.env.REACT_APP_SUPABASE_ANON_KEY);
         
-        const { data, error } = await supabase.from('early_access_requests').select('count').limit(1);
+        const { error } = await supabase.from('early_access_requests').select('count').limit(1);
         if (error) {
           console.error('Supabase connection test failed:', error);
         } else {
@@ -116,6 +116,9 @@ const Newstaller = () => {
       // Show thank you message
       setThankYouType(type);
       setShowThankYou(true);
+      
+      // Dispatch custom event to hide floating button
+      window.dispatchEvent(new CustomEvent('formSubmitted'));
       
       // Reset form
       setFormData({ name: '', company: '', email: '' });

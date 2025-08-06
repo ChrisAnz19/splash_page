@@ -5,6 +5,7 @@ import Button from "./common/button";
 
 const Header = () => {
 	const [open, setOpen] = useState(false);
+
 	return (
 		<header className="py-10">
 			<div className="container relative">
@@ -23,7 +24,7 @@ const Header = () => {
 					</Link>
 					<div
 						className={cn(
-							"text-[#818181] uppercase gap-8 flex max-lg:fixed max-lg:left-0 max-lg:top-0 max-lg:bg-black max-lg:border-r max-lg:border-white/10 max-lg:w-full max-lg:max-w-[320px] max-lg:h-screen max-lg:z-[100] max-lg:p-10 max-lg:flex-col max-lg:items-center max-lg:text-2xl max-lg:pt-20 duration-300 transition-all",
+							"text-[#818181] uppercase gap-8 flex justify-center flex-1 max-lg:fixed max-lg:left-0 max-lg:top-0 max-lg:bg-black max-lg:border-r max-lg:border-white/10 max-lg:w-full max-lg:max-w-[320px] max-lg:h-screen max-lg:z-[100] max-lg:p-10 max-lg:flex-col max-lg:items-center max-lg:text-2xl max-lg:pt-20 duration-300 transition-all",
 							{
 								"max-lg:opacity-0 max-lg:invisible max-lg:translate-x-[-100%]":
 									!open,
@@ -65,13 +66,15 @@ const Header = () => {
 							</svg>
 						</button>
 					</div>
-					<a
-						onClick={() => setOpen(false)}
-						href="#waitlist"
-						className="lg:block hidden"
-					>
-						<Button text="GET EARLY ACCESS" />
-					</a>
+					<div className="fixed top-8 right-8 z-50">
+						<a
+							onClick={() => setOpen(false)}
+							href="#waitlist"
+							className="lg:block hidden"
+						>
+							<Button text="GET EARLY ACCESS" />
+						</a>
+					</div>
 					<button
 						className="lg:hidden cursor-pointer"
 						type="button"

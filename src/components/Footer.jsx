@@ -13,7 +13,7 @@ const navigationLinks = [
 	},
 	{
 		title: "investor intro",
-		url: "#investorintro",
+		url: "#waitlist",
 	},
 	{
 		title: "waitlist",
