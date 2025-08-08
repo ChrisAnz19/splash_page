@@ -36,7 +36,7 @@ const legalLinks = [
 	},
 	{
 		title: "TEAM LOGIN",
-		url: "#team-login",
+		url: "https://new-logo-front-end.onrender.com",
 	},
 ];
 

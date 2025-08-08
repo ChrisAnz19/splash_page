@@ -10,7 +10,13 @@ const Urls = ({ title, links }) => {
 						className="font-medium uppercase text-base text-black leading-[32px] h-8 flex items-center"
 						key={index}
 					>
-						<a href={link.url} className="hover:text-[#818181] transition-colors duration-300 cursor-pointer">{link.title}</a>
+						<a 
+							href={link.url} 
+							className="hover:text-[#818181] transition-colors duration-300 cursor-pointer"
+							{...(link.url.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+						>
+							{link.title}
+						</a>
 					</li>
 				))}
 			</ul>
