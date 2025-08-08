@@ -34,6 +34,10 @@ const legalLinks = [
 		title: "don't sell my info",
 		url: "#dontsellmyinfo",
 	},
+	{
+		title: "TEAM LOGIN",
+		url: "#team-login",
+	},
 ];
 
 const Footer = () => {

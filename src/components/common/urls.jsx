@@ -7,7 +7,7 @@ const Urls = ({ title, links }) => {
 			<ul className="flex flex-col">
 				{links.map((link, index) => (
 					<li
-						className="font-medium uppercase text-base text-black text-base leading-[32px]"
+						className="font-medium uppercase text-base text-black leading-[32px] h-8 flex items-center"
 						key={index}
 					>
 						<a href={link.url} className="hover:text-[#818181] transition-colors duration-300 cursor-pointer">{link.title}</a>
