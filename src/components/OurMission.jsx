@@ -45,7 +45,7 @@ const OurMission = () => {
                 showSecondParagraph ? 'opacity-100' : 'opacity-0'
               }`}
             >
-              Profile databases don't reveal what people want or need now—behavior does.
+              Profile databases don't reveal what people want or need now; behavior does.
             </div>
             <br />
             <div 
